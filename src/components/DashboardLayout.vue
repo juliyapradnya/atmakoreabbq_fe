@@ -13,7 +13,7 @@
           <v-list-item-subtitle class="white--text">
             Operational Manager
           </v-list-item-subtitle>
-          <img id="logoLogin" src="../assets/akblogo.png" width="50" height="150" alt="Kitten">
+          <img src="../assets/akblogo.png" width="50" height="150" alt="Kitten">
         </v-list-item-content>
       </v-list-item>
 
@@ -113,4 +113,5 @@ export default {
 .v-list-item__title {
   color: rgb(216, 160, 57);
 }
+
 </style>
