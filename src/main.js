@@ -12,7 +12,8 @@ moment.tz.guess();
 Vue.use(VueMoment, { moment });
 
 Vue.prototype.$http = axios;
-Vue.prototype.$api = 'http://127.0.0.1:8000/api';
+//Vue.prototype.$api = 'http://127.0.0.1:8000/api';
+Vue.prototype.$api = 'https://akbresto.juliyapradnya.my.id/api';
 
 new Vue({
   vuetify,
